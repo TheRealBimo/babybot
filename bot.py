@@ -127,17 +127,17 @@ async def help(ctx):
 
 
     embed.set_author(name='Help')
-    embed.add_field(name='!ping', value='Returns Pong!', inline=False)
-    embed.add_field(name='!clear', value='Deletes messages', inline=False)
-    embed.add_field(name='!echo', value='Repeats your message', inline=False)
-    embed.add_field(name='!join', value='Bot joins your channel', inline=False)
-    embed.add_field(name='!leave', value='Bot leaves your channel', inline=False)
-    embed.add_field(name='!play', value='Plays your youtube video', inline=False)
-    embed.add_field(name='!pause', value='Pauses the video', inline=False)
-    embed.add_field(name='!resume', value='Resumes the video', inline=False)
-    embed.add_field(name='!stop', value='Stops the video', inline=False)
-    embed.add_field(name='!queue', value='Adds the video to the queue', inline=False)
-    embed.add_field(name='!github', value='Download the source code here', inline=False)
+    embed.add_field(name='.ping', value='Returns Pong!', inline=False)
+    embed.add_field(name='.clear', value='Deletes messages', inline=False)
+    embed.add_field(name='.echo', value='Repeats your message', inline=False)
+    embed.add_field(name='.join', value='Bot joins your channel', inline=False)
+    embed.add_field(name='.leave', value='Bot leaves your channel', inline=False)
+    embed.add_field(name='.play', value='Plays your youtube video', inline=False)
+    embed.add_field(name='.pause', value='Pauses the video', inline=False)
+    embed.add_field(name='.resume', value='Resumes the video', inline=False)
+    embed.add_field(name='.stop', value='Stops the video', inline=False)
+    embed.add_field(name='.queue', value='Adds the video to the queue', inline=False)
+    embed.add_field(name='.github', value='Download the source code here', inline=False)
     await client.send_message(author, embed=embed)
 
 # Reaction Logger - Added
